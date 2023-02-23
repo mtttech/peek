@@ -8,6 +8,15 @@ Peek requires the tabulate and rich libraries.
 
 ## USAGE
 
+
+Obtaining and using Peek.
+
+```
+git clone https://github.com/mtttech/peek.git
+
+cd peek/src
+```
+
 ```
 usage: peek [-h] -p PATH [--list] [--list-dir] [--list-file]
 
@@ -35,14 +44,6 @@ Will show the user files only.
 
 ```
 src python peek -p [DIR] --list-file
-```
-
-Peek installation.
-
-```
-git clone https://github.com/mtttech/peek.git
-
-cd peek/src
 ```
 
 Example program run.
