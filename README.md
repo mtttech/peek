@@ -22,17 +22,17 @@ options:
 Will show the user all files and directories.
 
 ```
-src python peek -p /home/mtaylor3121 --list 
+src python peek -p [DIR] --list 
 ```
 
 Will show the user directories only.
 
 ```
-src python peek -p /home/mtaylor3121 --list-dir 
+src python peek -p [DIR] --list-dir 
 ```
 
 Will show the user files only.
 
 ```
-src python peek -p /home/mtaylor3121 --list-file
+src python peek -p [DIR] --list-file
 ```
