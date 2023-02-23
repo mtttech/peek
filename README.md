@@ -36,3 +36,32 @@ Will show the user files only.
 ```
 src python peek -p [DIR] --list-file
 ```
+
+Peek installation.
+
+```
+git clone https://github.com/mtttech/peek.git
+
+cd peek/src
+```
+
+Example program run.
+
+```
+src python peek -p /home/mtaylor3121/Dev/black --list
+Requesting directory: /home/mtaylor3121/Dev/black
+
+Directory/File Name        UID    GID  Size    Last Modified
+-----------------------  -----  -----  ------  ---------------
+.coveragerc               1000   1000  106B    01-27 12:52
+.flake8                   1000   1000  360B    01-27 12:52
+.git                      1000   1000  138B    01-27 12:52
+.github                   1000   1000  158B    01-27 12:52
+.gitignore                1000   1000  272B    01-27 12:52
+.pre-commit-config.yaml   1000   1000  2KB     01-27 12:52
+.pre-commit-hooks.yaml    1000   1000  523B    01-27 12:52
+.prettierrc.yaml          1000   1000  49B     01-27 12:52
+.readthedocs.yaml         1000   1000  220B    01-27 12:52
+AUTHORS.md                1000   1000  8KB     01-27 12:52
+CHANGES.md                1000   1000  43KB    01-27 12:52
+```
